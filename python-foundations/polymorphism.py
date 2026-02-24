@@ -1,59 +1,56 @@
-"""
-class Animal:
-    def speak(self):
-        pass
-class Dog(Animal):
-    def speak(self):
-        return "Woof! "
 
-class Cat(Animal):
-    def speak(self):
-        return "Meow! "
+# class Animal:
+#     def speak(self):
+#         pass
+# class Dog(Animal):
+#     def speak(self):
+#         return "Woof! "
 
-animals =  [Dog(), Cat()]
-for animal in animals:
-    print(animal.speak())
+# class Cat(Animal):
+#     def speak(self):
+#         return "Meow! "
 
-
-def add(x, y, z=0):
-    return x + y + z
-
-print(add(2, 3))
-print(add(2, 3, 4))
-
-def add(a,*b):
-    a= 0
-    for i in b:
-        a +=i
-    return a
-
-print(add(2,2,2))
+# animals =  [Dog(), Cat()]
+# for animal in animals:
+#     print(animal.speak())
 
 
-def add(*b):
-    a = 0
-    for i in b:
-        a += i
-    return a
+# def add(x, y, z=0):
+#     return x + y + z
+
+# print(add(2, 3))
+# print(add(2, 3, 4))
+
+# def add(a,*b):
+#     a= 0
+#     for i in b:
+#         a +=i
+#     return a
+
+# print(add(2,2,2))
 
 
-print(add())
-def add(*b):
-    a = ""
-    for n in b:
-        if isinstance(n,int):
-            a =0
-        a += n
-
-    return a
+# def add(*b):
+#     a = 0
+#     for i in b:
+#         a += i
+#     return a
 
 
-print(add())
-print(add(1,2,3,4))
-print(add('h', 'ello'))
+# print(add())
+# def add(*b):
+#     a = ""
+#     for n in b:
+#         if isinstance(n,int):
+#             a =0
+#         a += n
+
+#     return a
 
 
-"""
+# print(add())
+# print(add(1,2,3,4))
+# print(add('h', 'ello'))
 
 
 def add(**kwargs):
