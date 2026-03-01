@@ -39,3 +39,8 @@ def logout(username):
 
 
 hello("kamal")
+
+
+if __name__ == "__main__":
+    goodbye("ram")
+    print("__name__ is ", __name__)
